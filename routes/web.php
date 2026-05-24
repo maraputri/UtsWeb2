@@ -14,3 +14,10 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/admin', function () {
+    return view('admin.dashboard');
+});
+
+Route::get('/admin/users', function () {
+    return view('admin.users');
+});
